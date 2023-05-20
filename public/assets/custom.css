@@ -1230,7 +1230,7 @@ a[href="#menu"] {
     overflow: hidden;
     position: relative;
     z-index: 10;
-    margin-bottom: -75px;
+    margin-bottom: -70px;
 }
 
 .hero__wrap {
@@ -1530,9 +1530,9 @@ svg.hero-arrow {
     white-space: nowrap;
     background-color: transparent;
     color: white;
-    border: 1px solid var(--color_brdr);
-    border-top: 2px solid var(--color_brdr);
-    border-bottom: 2px solid var(--color_brdr);
+    border: 3px solid var(--color_brdr);
+    border-top: 5px solid var(--color_brdr);
+    border-bottom: 5px solid var(--color_brdr);
     -webkit-transition: all 300ms;
     -o-transition: all 300ms;
     transition: all 300ms;
@@ -1543,7 +1543,7 @@ svg.hero-arrow {
 }
 
 .tabs__buttons_flex .tabs__button:first-child {
-    border-left: 2px solid var(--color_brdr);
+    border-left: 5px solid var(--color_brdr);
 }
 
 .tabs__buttons_flex .tabs__button:last-child {
@@ -1692,7 +1692,7 @@ svg.hero-arrow {
 .main-tabs.cnfg-active .tabs__button.deactivate-config {
     flex: 1 0 10%;
     border-left: 1px solid var(--color_brdr);
-    border-right: 2px solid var(--color_brdr);
+    border-right: 5px solid var(--color_brdr);
 }
 
 .main-tabs.cnfg-active .tabs__buttons_wrap {
@@ -1834,7 +1834,7 @@ svg.hero-arrow {
 }
 
 .jcf-reset-appearance {
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
 }
 
 .questions_list .jcf-list .jcf-option.jcf-disabled {
@@ -2162,7 +2162,7 @@ svg.hero-arrow {
     display: flex;
     width: 100%;
     color: var(--color_black);
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
     justify-content: flex-start;
     align-items: stretch;
     padding-right: 21px;
@@ -2179,7 +2179,7 @@ svg.hero-arrow {
     display: flex;
     flex: 0 0 41px;
     width: 41px;
-    border-right: 2px solid var(--color_brdr);
+    border-right: 5px solid var(--color_brdr);
     justify-content: center;
     align-items: center;
 }
@@ -2315,7 +2315,7 @@ svg.hero-arrow {
 
 .contacts__frame,
 .callback__frame {
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
     height: 500px;
     background: url("../images/map.jpg") no-repeat center center / cover transparent;
     --color_main__light: white;
@@ -2430,7 +2430,7 @@ svg.hero-arrow {
 .social-menu {
     position: relative;
     display: flex;
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
 }
 
 .zaglushka {
@@ -2444,7 +2444,7 @@ svg.hero-arrow {
     height: 85px;
     width: 130px;
     flex: 1 1 130px;
-    border-right: 2px solid var(--color_brdr);
+    border-right: 5px solid var(--color_brdr);
     background: url("") no-repeat center center / auto transparent;
 }
 
@@ -2503,7 +2503,7 @@ svg.hero-arrow {
 }
 
 .product_card .product-block {
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
     position: relative;
     height: 100%;
 }
@@ -2851,7 +2851,7 @@ svg.hero-arrow {
     flex-direction: column;
     display: flex;
     justify-content: space-between;
-    border-right: 2px solid var(--color_brdr);
+    border-right: 5px solid var(--color_brdr);
 }
 
 .product-right-col {
@@ -3209,7 +3209,7 @@ svg.hero-arrow {
     display: flex;
     justify-content: center;
     padding: 60px;
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
     position: relative;
 }
 
@@ -3361,7 +3361,7 @@ svg.hero-arrow {
     height: 130px;
     top: 0;
     left: 0;
-    border-bottom: 2px solid var(--color_brdr);
+    border-bottom: 5px solid var(--color_brdr);
     text-align: center;
 }
 
@@ -3663,7 +3663,7 @@ a.breadcrumb-link:hover {
 .catalog__order .jcf-select {
     margin: 0;
     height: 50px;
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
     border-color: transparent;
     min-width: auto;
 }
@@ -3740,7 +3740,7 @@ a.breadcrumb-link:hover {
     font-size: 30px;
     font-weight: 300;
     line-height: 45px;
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
     padding: 0 30px;
     margin-left: 20px;
     height: 50px;
@@ -3776,16 +3776,16 @@ a.breadcrumb-link:hover {
 }
 
 .collection-filter .filter {
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
     border-bottom: 0px solid;
 }
 
 .collection-filter .filter:last-of-type {
-    border-bottom: 2px solid var(--color_brdr);
+    border-bottom: 5px solid var(--color_brdr);
 }
 
 .filter>div {
-    border-bottom: 2px solid var(--color_brdr);
+    border-bottom: 5px solid var(--color_brdr);
 }
 
 .filter>div:last-child {
@@ -3834,7 +3834,7 @@ a.breadcrumb-link:hover {
     padding: 0 20px;
     height: 45px;
     line-height: 2;
-    border-right: 2px solid var(--color_brdr);
+    border-right: 5px solid var(--color_brdr);
 }
 
 .chkbx {
@@ -3920,7 +3920,7 @@ a.breadcrumb-link:hover {
     width: 45px;
     height: 45px;
     text-transform: uppercase;
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
     margin-left: -1px;
     display: flex;
     justify-content: center;
@@ -4264,14 +4264,14 @@ a.breadcrumb-link:hover {
 }
 
 .table_lines .header_center {
-    border: 2px solid var(--color_brdr);
+    border: 5px solid var(--color_brdr);
 }
 
 .table_lines>.lines__left-bottom-right {
     border-top: 0px solid;
-    border-left: 2px solid var(--color_brdr);
-    border-right: 2px solid var(--color_brdr);
-    border-bottom: 2px solid var(--color_brdr);
+    border-left: 5px solid var(--color_brdr);
+    border-right: 5px solid var(--color_brdr);
+    border-bottom: 5px solid var(--color_brdr);
 }
 
 /* table-like */
@@ -4286,13 +4286,13 @@ a.breadcrumb-link:hover {
 }
 
 .empty-center .cell-6:first-child {
-    border-right: 2px solid var(--color_brdr);
+    border-right: 5px solid var(--color_brdr);
     margin-right: 20px;
     padding: 0px;
 }
 
 .empty-center .cell-6:last-child {
-    border-left: 2px solid var(--color_brdr);
+    border-left: 5px solid var(--color_brdr);
     padding: 0px;
 }
 

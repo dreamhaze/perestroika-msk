@@ -43,15 +43,7 @@ export default {
     active_tab: null,
   }),
   methods: {
-    // fetchTodo() {
-    //   console.log(curr_tab);
-    //   console.log(this.currTab);
-    //   this.currTab = curr_tab;
-    //   console.log(curr_tab);
-    //   console.log(this.currTab);
-    // },
     clickOnTab(index) {
-      console.log(index);
       this.$emit("getCurrTab", index);
     },
   },

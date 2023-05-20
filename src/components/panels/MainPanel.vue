@@ -61,7 +61,7 @@
 <script>
 import VueDatePicker from "@vuepic/vue-datepicker";
 import "@vuepic/vue-datepicker/dist/main.css";
-import SearchForm from "@/components/search/SearchForm.vue";
+import SearchForm from "@/components/panels/SearchForm.vue";
 
 import { ref } from "vue";
 const dateRef = ref();

@@ -6,19 +6,19 @@
         <SmatdeskPage />
       </v-main>
     </v-layout>
-    <SearchFilter />
+    <MainPanel />
   </v-app>
 </template>
 
 <script>
 // import NavbarMobile from "@/components/NavbarMobile.vue";
-import SearchFilter from "@/components/search/SearchFilter.vue";
+import MainPanel from "@/components/panels/MainPanel.vue";
 import SmatdeskPage from "./components/SmatdeskPage.vue";
 import NavSidebar from "./components/NavSidebar.vue";
 
 export default {
   components: {
-    SearchFilter,
+    MainPanel,
     NavSidebar,
     SmatdeskPage,
   },
