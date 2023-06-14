@@ -8,7 +8,10 @@
       <n-card>
         <n-el
           tag="span"
-          style="color: var(--primary-color); transition: .3s var(--cubic-bezier-ease-in-out);"
+          style="
+            color: var(--primary-color);
+            transition: 0.3s var(--cubic-bezier-ease-in-out);
+          "
         >
           I am a Span.
         </n-el>
@@ -18,15 +21,19 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
-import { darkTheme } from 'naive-ui'
+import { defineComponent, ref } from "vue";
+import { darkTheme } from "naive-ui";
+import { NButton } from "naive-ui";
 
 export default defineComponent({
-  setup () {
+  components: {
+    NButton,
+  },
+  setup() {
     return {
       darkTheme,
-      theme: ref(null)
-    }
-  }
-})
+      theme: ref(null),
+    };
+  },
+});
 </script>
