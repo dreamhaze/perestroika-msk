@@ -1522,7 +1522,7 @@ svg.hero-arrow {
 .tabs__buttons_flex .tabs__button {
     cursor: pointer;
     display: flex;
-    min-width: 245px;
+    min-width: 295px;
     justify-content: center;
     align-items: center;
     line-height: 67px;
@@ -1537,17 +1537,20 @@ svg.hero-arrow {
     -o-transition: all 300ms;
     transition: all 300ms;
 }
-
+.tabs__buttons_flex .tabs__button.deactivate-config {
+    min-width: auto;
+    flex-basis: auto;
+}
 .tabs__buttons_flex .tabs__button:hover {
     background-color: var(--color_main);
 }
 
 .tabs__buttons_flex .tabs__button:first-child {
-    border-left: 5px solid var(--color_brdr);
+    border-left: 6px solid var(--color_brdr);
 }
 
 .tabs__buttons_flex .tabs__button:last-child {
-    border-right: 1px solid var(--color_brdr);
+    border-right: 2px solid var(--color_brdr);
 }
 
 .tabs__buttons_flex .js-tabs-item.is-button-active {
@@ -1556,7 +1559,7 @@ svg.hero-arrow {
 }
 
 .tabs__content {
-    margin-top: 85px;
+    margin-top: 0;
     position: relative;
     z-index: 19;
 }
@@ -1692,7 +1695,7 @@ svg.hero-arrow {
 .main-tabs.cnfg-active .tabs__button.deactivate-config {
     flex: 1 0 10%;
     border-left: 1px solid var(--color_brdr);
-    border-right: 5px solid var(--color_brdr);
+    border-right: 6px solid var(--color_brdr);
 }
 
 .main-tabs.cnfg-active .tabs__buttons_wrap {
@@ -4821,6 +4824,49 @@ a.breadcrumb-link:hover {
     padding-right: 0px;
 }
 
+/* from cake builder */
+hr {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.layer {
+    transition: height 0.5s;
+}
+
+.layer-biscuit {
+    background: url("../images/for_calc/biscuit.jpg") repeat bottom center / cover transparent;
+}
+
+.layer-beze {
+    background: url("../images/for_calc/beze.jpg") repeat bottom center / cover transparent;
+}
+
+.layer-curd {
+    background: url("../images/for_calc/curd.jpg") repeat bottom center / cover transparent;
+}
+
+.price {
+    font-size: 26px;
+    margin-right: 40px;
+}
+
+.layer-enter-active {
+    animation: layerIn 0.5s;
+}
+
+@keyframes layerIn {
+    from {
+        transform: translateY(50px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
 
 /******************************************** 
 

@@ -1,29 +1,32 @@
 <template>
-  <v-app class="psc-app">
-    <v-layout>
-      <v-main>
-        <NavSidebar />
-        <SmatdeskPage />
-      </v-main>
-    </v-layout>
-    <MainPanel />
-  </v-app>
+  <n-space vertical>
+    <n-space>
+      <n-button @click="theme = darkTheme">Dark</n-button>
+      <n-button @click="theme = null">Light</n-button>
+    </n-space>
+    <n-config-provider :theme="theme">
+      <n-card>
+        <n-el
+          tag="span"
+          style="color: var(--primary-color); transition: .3s var(--cubic-bezier-ease-in-out);"
+        >
+          I am a Span.
+        </n-el>
+      </n-card>
+    </n-config-provider>
+  </n-space>
 </template>
 
 <script>
-// import NavbarMobile from "@/components/NavbarMobile.vue";
-import MainPanel from "@/components/panels/MainPanel.vue";
-import SmatdeskPage from "./components/SmatdeskPage.vue";
-import NavSidebar from "./components/NavSidebar.vue";
+import { defineComponent, ref } from 'vue'
+import { darkTheme } from 'naive-ui'
 
-export default {
-  components: {
-    MainPanel,
-    NavSidebar,
-    SmatdeskPage,
-  },
-  name: "PSCApp",
-};
+export default defineComponent({
+  setup () {
+    return {
+      darkTheme,
+      theme: ref(null)
+    }
+  }
+})
 </script>
-
-<style lang="scss"></style>

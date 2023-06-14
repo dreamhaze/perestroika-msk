@@ -1,21 +1,17 @@
-@use 'vuetify' with ($utilities: false,
-    $color-pack: false,
-);
-
 @import './reset.scss';
 
-:root {
+// :root {
 
-    /* normal text */
+//     /* normal text */
 
-    /* black text */
-    // b {
-    //     font-weight: 500;
-    //     font-size: 14px;
-    //     line-height: 16px; 
-    //     color: #2F2F2F;  
-    // }
-}
+//     /* black text */
+//     b {
+//         font-weight: 500;
+//         font-size: 14px;
+//         line-height: 16px; 
+//         color: #2F2F2F;  
+//     }
+// }
 
 .psc-app {
     --v-layout-top: 47px;

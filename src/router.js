@@ -1,31 +1,22 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import TestPage from '@/components/TestPage.vue'
-import SmatdeskPage from '@/components/SmatdeskPage.vue'
+import IndexView from '@/views/index.vue'
+import ResultComponent from '@/components/ResultComponent.vue'
 
 const routes = [
     {
-        path: '/test',
-        component: TestPage
+        path: '/result',
+        component: ResultComponent
     },
     {
         path: '/',
-        component: SmatdeskPage
+        component: IndexView
     },
 ]
 
-
-// const router = VueRouter.createRouter({
-//     // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
-//     history: VueRouter.createWebHashHistory(),
-//     routes, // short for `routes: routes`
-// })
-
-
 export default new createRouter(
     {
-        // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
         history: createWebHistory(),
-        routes, // short for `routes: routes`
+        routes,
     }
 )
