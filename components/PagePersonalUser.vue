@@ -5,22 +5,18 @@
   <div class="lk__wrapper">
     <div class="lk__top">
       <div class="lk__controls">
-        
-            <PageLink to="/" class="back-btn lk__back">
-        <a href="#" class="back-btn lk__back">
+        <PageLink to="/" class="back-btn lk__back">
           <svg>
             <use xlink:href="img/sprite.svg#icon-back"></use>
           </svg>
-        </a>
+        </PageLink>
       </div>
       <div class="lk__controls">
-        
-            <PageLink to="/" class="lk__settings">
-        <a href="#" class="lk__settings">
+        <PageLink to="/account" class="lk__settings">
           <svg>
             <use xlink:href="img/sprite.svg#icon-settings"></use>
           </svg>
-        </a>
+        </PageLink>
       </div>
     </div>
     <div class="lk__main">

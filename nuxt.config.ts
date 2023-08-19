@@ -52,11 +52,10 @@ export default defineNuxtConfig({
       process.env.COOKIE_REMEMBER_ME_EXPIRES || ONE_WEEK.toString(),
       10
     ), // 7 days
-    // The private keys which are only available within server-side
     apiSecret: "123",
-    // Keys within public, will be also exposed to the client-side
     public: {
-      apiBase: process.env.API_URL,
+      apiURL: "https://pacoswitu.beget.app/api/v1/",
+      imgHost: "https://pacoswitu.beget.app/",
     },
   },
   build: {
@@ -84,9 +83,6 @@ export default defineNuxtConfig({
       }),
     ],
   },
-  modules: ["@unocss/nuxt", "@pinia/nuxt"],
+  modules: ["@pinia/nuxt"],
   devtools: { enabled: false },
-  unocss: {
-    preflight: true,
-  },
 });

@@ -6,7 +6,7 @@
     },
     "tailwindCSS.experimental.configFile": "./tailwind.config.ts",
     "[vue]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "octref.vetur"
     },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
