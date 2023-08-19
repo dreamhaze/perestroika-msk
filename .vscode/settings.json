@@ -12,7 +12,7 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "svipas.prettier-plus"
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
