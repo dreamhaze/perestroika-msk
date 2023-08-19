@@ -11,7 +11,7 @@
               <li class="nav__item is--active">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-01"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-01"></use>
                   </svg>
                   <span>Пособия</span>
                 </a>
@@ -19,7 +19,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-02"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-02"></use>
                   </svg>
                   <span>Пенсия</span>
                 </a>
@@ -27,7 +27,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-03"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-03"></use>
                   </svg>
                   <span>Льготы</span>
                 </a>
@@ -35,7 +35,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-04"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-04"></use>
                   </svg>
                   <span>Семья</span>
                 </a>
@@ -43,7 +43,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-05"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-05"></use>
                   </svg>
                   <span>Долги</span>
                 </a>
@@ -51,7 +51,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-06"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-06"></use>
                   </svg>
                   <span>Договоры и сделки</span>
                 </a>
@@ -59,7 +59,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-07"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-07"></use>
                   </svg>
                   <span>Суды</span>
                 </a>
@@ -67,7 +67,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-08"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-08"></use>
                   </svg>
                   <span>Транспорт</span>
                 </a>
@@ -75,7 +75,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-09"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-09"></use>
                   </svg>
                   <span>Трудовое законодательство</span>
                 </a>
@@ -83,7 +83,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-10"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-10"></use>
                   </svg>
                   <span>Недвижимость</span>
                 </a>
@@ -91,7 +91,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-11"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-11"></use>
                   </svg>
                   <span>Уголовное законодательство</span>
                 </a>
@@ -99,7 +99,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-12"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-12"></use>
                   </svg>
                   <span>Наследственные споры</span>
                 </a>
@@ -107,7 +107,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-13"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-13"></use>
                   </svg>
                   <span>Защита прав потребителей</span>
                 </a>
@@ -115,7 +115,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-14"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-14"></use>
                   </svg>
                   <span>Административные правонарушения</span>
                 </a>
@@ -123,7 +123,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-15"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-15"></use>
                   </svg>
                   <span>Регистрация ЮЛ и ИП</span>
                 </a>
@@ -131,7 +131,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-16"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-16"></use>
                   </svg>
                   <span>Банкротство физ лица</span>
                 </a>
@@ -139,7 +139,7 @@
               <li class="nav__item">
                 <a href="#" class="nav__link">
                   <svg>
-                    <use xlink:href="img/sprite.svg#icon-nav-17"></use>
+                    <use xlink:href="/img/sprite.svg#icon-nav-17"></use>
                   </svg>
                   <span>Помощь иностранным гражданам</span>
                 </a>
@@ -151,24 +151,24 @@
           <div class="menu__controls">
             <button class="ai-btn ai-btn--lg menu__ai">
               <span>Спросить у ИИ</span>
-              <img src="img/ai-img.png" alt="AI" />
+              <img src="/img/ai-img.png" alt="AI" />
             </button>
             <button class="menu__btn">
               <span>Закладки</span>
               <svg>
-                <use xlink:href="img/sprite.svg#icon-bookmarks"></use>
+                <use xlink:href="/img/sprite.svg#icon-bookmarks"></use>
               </svg>
             </button>
             <button class="menu__btn menu__btn--mobile">
               <span>Уведомления</span>
               <svg>
-                <use xlink:href="img/sprite.svg#icon-notifications"></use>
+                <use xlink:href="/img/sprite.svg#icon-notifications"></use>
               </svg>
             </button>
             <button class="menu__btn menu__btn--mobile menu__close">
               <span>Закрыть</span>
               <svg>
-                <use xlink:href="img/sprite.svg#icon-close"></use>
+                <use xlink:href="/img/sprite.svg#icon-close"></use>
               </svg>
             </button>
           </div>
@@ -186,22 +186,22 @@
           <div class="footer-socmedia__wrapper">
             <a href="#" class="footer-socmedia__btn">
               <svg class="footer-socmedia__icon">
-                <use xlink:href="img/sprite.svg#icon-vcru"></use>
+                <use xlink:href="/img/sprite.svg#icon-vcru"></use>
               </svg>
             </a>
             <a href="#" class="footer-socmedia__btn">
               <svg class="footer-socmedia__icon">
-                <use xlink:href="img/sprite.svg#icon-telegram"></use>
+                <use xlink:href="/img/sprite.svg#icon-telegram"></use>
               </svg>
             </a>
             <a href="#" class="footer-socmedia__btn">
               <svg class="footer-socmedia__icon">
-                <use xlink:href="img/sprite.svg#icon-vk"></use>
+                <use xlink:href="/img/sprite.svg#icon-vk"></use>
               </svg>
             </a>
             <a href="#" class="footer-socmedia__btn">
               <svg class="footer-socmedia__icon">
-                <use xlink:href="img/sprite.svg#icon-dzen"></use>
+                <use xlink:href="/img/sprite.svg#icon-dzen"></use>
               </svg>
             </a>
           </div>

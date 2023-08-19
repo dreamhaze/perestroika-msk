@@ -4,22 +4,22 @@
       <div class="footer-socmedia__wrapper">
         <!-- <a href="#" class="footer-socmedia__btn">
           <svg class="footer-socmedia__icon">
-            <use xlink:href="img/sprite.svg#icon-vcru"></use>
+            <use xlink:href="/img/sprite.svg#icon-vcru"></use>
           </svg>
         </a>
         <a href="#" class="footer-socmedia__btn">
           <svg class="footer-socmedia__icon">
-            <use xlink:href="img/sprite.svg#icon-telegram"></use>
+            <use xlink:href="/img/sprite.svg#icon-telegram"></use>
           </svg>
         </a>
         <a href="#" class="footer-socmedia__btn">
           <svg class="footer-socmedia__icon">
-            <use xlink:href="img/sprite.svg#icon-vk"></use>
+            <use xlink:href="/img/sprite.svg#icon-vk"></use>
           </svg>
         </a>
         <a href="#" class="footer-socmedia__btn">
           <svg class="footer-socmedia__icon">
-            <use xlink:href="img/sprite.svg#icon-dzen"></use>
+            <use xlink:href="/img/sprite.svg#icon-dzen"></use>
           </svg>
         </a> -->
       </div>

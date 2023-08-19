@@ -27,8 +27,8 @@ async function onLogoutClick() {
           <div class="header__left">
             <PageLink to="/" class="header__logotype header__logotype--small">
               <picture>
-                <source srcset="img/logotype.svg" media="(min-width: 768px)" />
-                <img src="img/logotype-small.svg" alt="SCROLL" />
+                <source srcset="/img/logotype.svg" media="(min-width: 768px)" />
+                <img src="/img/logotype-small.svg" alt="SCROLL" />
               </picture>
             </PageLink>
           </div>
@@ -39,17 +39,17 @@ async function onLogoutClick() {
             <div class="header__controls header__controls--first">
               <a href="#" class="header__btn header__btn--search">
                 <svg>
-                  <use xlink:href="img/sprite.svg#icon-search"></use>
+                  <use xlink:href="/img/sprite.svg#icon-search"></use>
                 </svg>
               </a>
               <a href="#" class="header__btn header__btn--tablet-hidden">
                 <svg>
-                  <use xlink:href="img/sprite.svg#icon-bookmarks"></use>
+                  <use xlink:href="/img/sprite.svg#icon-bookmarks"></use>
                 </svg>
               </a>
               <a href="#" class="header__btn">
                 <svg>
-                  <use xlink:href="img/sprite.svg#icon-notifications"></use>
+                  <use xlink:href="/img/sprite.svg#icon-notifications"></use>
                 </svg>
               </a>
             </div>

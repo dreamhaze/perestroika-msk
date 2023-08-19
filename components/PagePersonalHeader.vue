@@ -24,7 +24,7 @@ async function onLoginSuccess() {
       <div class="lk-user lk__user">
         <div class="lk-user__wrapper">
           <picture class="lk-user__img">
-            <img src="img/user.jpg" alt="Image" />
+            <img src="/img/user.jpg" alt="Image" />
           </picture>
           <div class="lk-user__body">
             <span class="lk-user__name">Александр Македонский</span>

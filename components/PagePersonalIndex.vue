@@ -31,7 +31,7 @@
             <div class="pro-subscription__item">
               <div class="pro-subscription__icon">
                 <svg>
-                  <use xlink:href="img/sprite.svg#icon-sort"></use>
+                  <use xlink:href="/img/sprite.svg#icon-sort"></use>
                 </svg>
               </div>
               <div class="pro-subscription__body">
@@ -45,7 +45,7 @@
             <div class="pro-subscription__item">
               <div class="pro-subscription__icon">
                 <svg>
-                  <use xlink:href="img/sprite.svg#icon-spa"></use>
+                  <use xlink:href="/img/sprite.svg#icon-spa"></use>
                 </svg>
               </div>
               <div class="pro-subscription__body">
@@ -58,7 +58,7 @@
             <div class="pro-subscription__item">
               <div class="pro-subscription__icon">
                 <svg>
-                  <use xlink:href="img/sprite.svg#icon-spa"></use>
+                  <use xlink:href="/img/sprite.svg#icon-spa"></use>
                 </svg>
               </div>
               <div class="pro-subscription__body">

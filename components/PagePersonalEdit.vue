@@ -10,7 +10,7 @@ defineProps<{ user: UserWithoutPassword | null, userData: Object }>();
       <div class="lk__controls">
         <a href="#" class="back-btn lk__back">
           <svg>
-            <use xlink:href="img/sprite.svg#icon-back"></use>
+            <use xlink:href="/img/sprite.svg#icon-back"></use>
           </svg>
         </a>
       </div>
@@ -30,11 +30,11 @@ defineProps<{ user: UserWithoutPassword | null, userData: Object }>();
               />
               <label for="upload-photo" class="lk-edit__photo-label">
                 <picture class="lk-edit__img">
-                  <img src="img/user.jpg" alt="Image" />
+                  <img src="/img/user.jpg" alt="Image" />
                 </picture>
                 <div class="lk-edit__icon-wrap">
                   <svg class="lk-edit__icon">
-                    <use xlink:href="img/sprite.svg#icon-camera"></use>
+                    <use xlink:href="/img/sprite.svg#icon-camera"></use>
                   </svg>
                 </div>
               </label>
