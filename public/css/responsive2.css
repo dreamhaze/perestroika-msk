@@ -45,7 +45,7 @@
     }
 
     .hero__main .bttn__delimitter {
-        flex-grow: .1;
+        flex-grow: 0.1;
     }
 
     .bttn__email .submenu__content {
@@ -106,7 +106,7 @@
         left: -2px;
     }
 
-    .hero__text_wrapper>.container {
+    .hero__text_wrapper > .container {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -142,7 +142,6 @@
 }
 
 @media screen and (max-height: 640px) {
-
     .window__text,
     .hero__text {
         display: none;
