@@ -14,18 +14,24 @@
         "*.{json,css,scss,md}": "prettier --write"
     },
     "dependencies": {
-        "bcryptjs": "^2.4.3"
+        "@pinia/nuxt": "^0.4.11",
+        "bcryptjs": "^2.4.3",
+        "pinia": "^2.1.6",
+        "vueuc": "^0.4.51"
     },
     "devDependencies": {
+        "@nuxt/devtools": "^0.8.5",
         "@nuxt/eslint-config": "^0.2.0",
         "@types/bcryptjs": "^2.4.3",
         "@unocss/nuxt": "^0.56.0",
         "eslint": "^8.49.0",
         "eslint-config-prettier": "^8.8.0",
         "eslint-plugin-prettier": "^4.2.1",
-        "prettier": "^2.8.8",
         "husky": "^8.0.3",
         "lint-staged": "^14.0.1",
-        "nuxt": "^3.7.3"
+        "nuxt": "^3.7.3",
+        "prettier": "^2.8.8",
+        "unplugin-vue-components": "^0.25.1",
+        "naive-ui": "^2.30.0"
     }
 }
